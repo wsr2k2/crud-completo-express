@@ -31,9 +31,9 @@ router.post("/", (req, res) => {
 
 router.put("/:id", (req, res) => {
     const id = req.params.id -1;
-    const game = games[id]
-
+    const game = req.body;
     games[id] = game;
+    res.status(201).json("Game alterado com sucesso!")
 })
 
 router.delete("/:id", (req, res) => {
@@ -41,6 +41,7 @@ router.delete("/:id", (req, res) => {
     const game = games[id]
 
     delete games[id];
+    res.status(201).json("Game excluído com sucesso!")
 })
 
 module.exports = router;
