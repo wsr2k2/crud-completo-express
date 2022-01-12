@@ -1,0 +1,23 @@
+{
+  "name": "crud-completo-express",
+  "version": "1.0.0",
+  "description": "Projeto de uma API utilizando o NodeJs e Express. Realizado um CRUD completo em tempo de execução, sem salvar em banco de dados.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsr2k2/crud-completo-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsr2k2/crud-completo-express/issues"
+  },
+  "homepage": "https://github.com/wsr2k2/crud-completo-express#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
